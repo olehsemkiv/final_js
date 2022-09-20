@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.block {
+    min-height: 300px;
+    background-color: lightgray;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.top-block {
+    text-align: center;
+}
+
+.top-block h4 {
+    margin: 15px 0;
+}
+
+.text-area {
+    height: 200px;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+}
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+}
+
+.fz {
+    width: 20px;
+    height: 17px;
+}
+
+.check-bold,
+.check-cursive {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-style {
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    background-color: #2980b9;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn-style:hover {
+    background-color: #0f72b4;
+}
+
+.btn-edit {
+    margin-right: 20px;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    background-color: #d35400;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn-edit:hover {
+    background-color: #944109;
+}
+
+.font-size {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+.form-size span {
+    font-size: 20px;
+    margin: 15px;
+    margin-left: 3px;
+}
+
+.ff {
+    width: 250px;
+    height: 30px;
+    outline: 1px solid blue;
+    border-radius: 7px;
+}
+
+.btn-color-text,
+.btn-color-bg {
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    background-color: #9b59b6;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn-color-text:hover {
+    background-color: #6f0a97;
+}
+
+.btn-color-bg:hover {
+    background-color: #6f0a97;
+}
+
+.form-style span {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 10px 10px;
+}
+
+.edit-box {
+    display: none;
+}
+
+.style-box {
+    display: none;
+}
+
+.btn-add,
+.btn-save,
+.create_table_btn,
+.create_list_btn {
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 75px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    background-color: #d35400;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn-add:hover {
+    background-color: #662e09;
+}
+
+.create_table_btn,
+.create_list_btn {
+    width: 150px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+}
+
+.create_table_btn:hover {
+    background-color: rgb(4, 59, 4);
+}
+
+.create_list_btn:hover {
+    background-color: rgb(4, 59, 4);
+}
+
+.constructor-block h1 {
+    font-family: sans-serif;
+}
+
+.add-table,
+.add-list {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: sans-serif;
+    color: darkblue;
+}
+
+.add_input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-left: 10px;
+
+}
+
+.heading_style {
+    margin: 10px 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.add_input:focus {
+    outline: 1px solid blue;
+}
+
+.table_form h3 {
+    font-size: 25px;
+}
+
+.btn-save {
+    background-color: green;
+}
+
+.btn-save:hover {
+    background-color: rgb(6, 59, 6);
+}
+
+.form-color {
+    position: relative;
+}
+
+.color-block,
+.bg-block {
+    width: 153px;
+    height: 153px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -20px;
+    right: 50px;
+    display: none;
+
+}
+
+.color-item {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    outline: 1px solid black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.constructor-block {
+    display: none;
+}
+
+
+
+.table_form {
+    display: none;
+}
+
+.list_form {
+    display: none;
+}
+
+
+.show {
+    display: block;
+}
